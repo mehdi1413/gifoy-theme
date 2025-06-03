@@ -5,18 +5,8 @@
  */
 defined('ABSPATH') || exit; ?>
 <?php get_header(); ?>
+<?php get_template_part('template/search/search-popup') ?>
 
-    <!-- popup search -->
-    <div class="search-popup">
-        <button class="close-search"><span class="far fa-times"></span></button>
-        <form action="#">
-            <div class="form-group">
-                <input type="search" name="search-field" class="form-control" placeholder="جستجو..." required>
-                <button type="submit"><i class="far fa-search"></i></button>
-            </div>
-        </form>
-    </div>
-    <!-- popup search end -->
 <?php get_template_part('template/wrapper/wrapper-start'); ?>
 <?php get_template_part('template/front-page/category-section'); ?>
 <?php get_template_part('template/front-page/hero-section'); ?>
