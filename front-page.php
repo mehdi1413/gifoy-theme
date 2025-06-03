@@ -17,7 +17,7 @@ defined('ABSPATH') || exit; ?>
         </form>
     </div>
     <!-- popup search end -->
-<?php get_template_part('template/wrapper/wrapper-start.php'); ?>
+<?php get_template_part('template/wrapper/wrapper-start'); ?>
 <?php get_template_part('template/front-page/category-section'); ?>
 <?php get_template_part('template/front-page/hero-section'); ?>
 <?php get_template_part('template/front-page/feature-section'); ?>
@@ -36,5 +36,5 @@ defined('ABSPATH') || exit; ?>
 <?php get_template_part('template/front-page/blog-section'); ?>
 <?php get_template_part('template/front-page/newsletter-section'); ?>
 <?php get_template_part('template/front-page/brand-section'); ?>
-<?php get_template_part('template/wrapper/wrapper-end.php'); ?>
+<?php get_template_part('template/wrapper/wrapper-start'); ?>
 <?php get_footer(); ?>
