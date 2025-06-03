@@ -26,5 +26,5 @@ defined('ABSPATH') || exit; ?>
 <?php get_template_part('template/front-page/blog-section'); ?>
 <?php get_template_part('template/front-page/newsletter-section'); ?>
 <?php get_template_part('template/front-page/brand-section'); ?>
-<?php get_template_part('template/wrapper/wrapper-start'); ?>
+<?php get_template_part('template/wrapper/wrapper-end'); ?>
 <?php get_footer(); ?>
