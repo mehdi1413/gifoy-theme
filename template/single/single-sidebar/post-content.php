@@ -1,6 +1,6 @@
 <?php
 /**
- * The single simple: post content section
+ * The single with sidebar: post content section
  * @package gifoy
  */
 defined('ABSPATH') || exit; ?>
