@@ -28,4 +28,8 @@ function gifoy_theme_setup(): void
     add_image_size('blog-card', '374', '250', ['center', 'center']);
 
     add_filter('show_admin_bar', '__return_false');
+
+    // REGISTER NAV MENU
+    register_nav_menu('main','منوی اصلی');
+    register_nav_menu('footer','منوی فوتر');
 }
