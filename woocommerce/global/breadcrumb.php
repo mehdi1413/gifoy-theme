@@ -16,31 +16,27 @@
  * @see         woocommerce_breadcrumb()
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+if (!defined('ABSPATH')) {
+    exit;
 }
 
-if ( ! empty( $breadcrumb ) ) {
-
-	echo $wrap_before;
-
-	foreach ( $breadcrumb as $key => $crumb ) {
-
-		echo $before;
-
-		if ( ! empty( $crumb[1] ) && sizeof( $breadcrumb ) !== $key + 1 ) {
-			echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
-		} else {
-			echo esc_html( $crumb[0] );
-		}
-
-		echo $after;
-
-		if ( sizeof( $breadcrumb ) !== $key + 1 ) {
-			echo $delimiter;
-		}
-	}
-
-	echo $wrap_after;
-
-}
+if (!empty($breadcrumb)) : ?>
+    <div class="site-breadcrumb rtl">
+        <div class="site-breadcrumb-bg" style="background: url(<?php echo get_template_directory_uri() . '/assets/img/breadcrumb/01.jpg'; ?>)"></div>
+        <div class="container">
+            <div class="site-breadcrumb-wrap">
+                <ul class="breadcrumb-menu">
+                    <?php foreach ($breadcrumb as $key => $crumb) :
+                        if ($key === 0) {
+                            echo '<li><a href="' . esc_url($crumb[1]) . '"><i class="far fa-home"></i>' . esc_html($crumb[0]) . '</a></li>';;
+                        } elseif (!empty($crumb[1]) && sizeof($breadcrumb) !== $key + 1) {
+                            echo '<li><a href="' . esc_url($crumb[1]) . '">' . esc_html($crumb[0]) . '</a></li>';
+                        } else {
+                            echo '<li class="active">' . esc_html($crumb[0]) . '</li>';
+                        }
+                    endforeach; ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+<?php endif;
