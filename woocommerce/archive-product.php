@@ -75,7 +75,8 @@ do_action('woocommerce_before_main_content'); ?>
                                 <li>
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="brand3">
-                                        <label class="form-check-label" for="brand3">هدایای ساهو<span>(20)</span></label></div>
+                                        <label class="form-check-label" for="brand3">هدایای
+                                            ساهو<span>(20)</span></label></div>
                                 </li>
                                 <li>
                                     <div class="form-check">
@@ -86,7 +87,8 @@ do_action('woocommerce_before_main_content'); ?>
                                 <li>
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="brand5">
-                                        <label class="form-check-label" for="brand5">هدایای اصلی<span>(09)</span></label></div>
+                                        <label class="form-check-label" for="brand5">هدایای
+                                            اصلی<span>(09)</span></label></div>
                                 </li>
                             </ul>
                         </div>
@@ -97,9 +99,12 @@ do_action('woocommerce_before_main_content'); ?>
                                     <input type="text" id="price-amount" readonly="">
                                 </div>
                                 <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                                    <div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 10%; width: 30%;"></div>
-                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 10%;"></span>
-                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 40%;"></span>
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header"
+                                         style="left: 10%; width: 30%;"></div>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"
+                                          style="left: 10%;"></span>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"
+                                          style="left: 40%;"></span>
                                 </div>
                             </div>
                         </div>
@@ -291,8 +296,8 @@ do_action('woocommerce_before_main_content'); ?>
                      * @hooked woocommerce_product_taxonomy_archive_header - 10
                      */
                     do_action('woocommerce_shop_loop_header');
-                    if (woocommerce_product_loop()) {
 
+                    if (woocommerce_product_loop()) {
                         /**
                          * Hook: woocommerce_before_shop_loop.
                          *
@@ -300,9 +305,15 @@ do_action('woocommerce_before_main_content'); ?>
                          * @hooked woocommerce_result_count - 20
                          * @hooked woocommerce_catalog_ordering - 30
                          */
-                        do_action('woocommerce_before_shop_loop');
-
-                        woocommerce_product_loop_start();
+                        ?>
+                        <div class="col-md-12">
+                            <div class="shop-sort">
+                                <div class="shop-sort-box">
+                                    <?php do_action('woocommerce_before_shop_loop'); ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php woocommerce_product_loop_start();
 
                         if (wc_get_loop_prop('total')) {
                             while (have_posts()) {
@@ -330,8 +341,7 @@ do_action('woocommerce_before_main_content'); ?>
                          * @hooked wc_no_products_found - 10
                          */
                         do_action('woocommerce_no_products_found');
-                    }
-                    ?>
+                    } ?>
                 </div>
                 <?php
                 /**
