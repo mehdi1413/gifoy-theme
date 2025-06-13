@@ -9,9 +9,9 @@
                 <div class="mobile-menu-btn">
                     <a href="#" class="nav-right-link search-box-outer"><i class="far fa-search"></i></a>
                     <a href="wishlist.html" class="nav-right-link"><i
-                            class="far fa-heart"></i><span>2</span></a>
+                                class="far fa-heart"></i><span>2</span></a>
                     <a href="shop-cart.html" class="nav-right-link"><i
-                            class="far fa-shopping-bag"></i><span>5</span></a>
+                                class="far fa-shopping-bag"></i><span>5</span></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
@@ -22,7 +22,7 @@
                 </button>
             </div>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
+                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <a href="index-2.html" class="offcanvas-brand" id="offcanvasNavbarLabel">
                         <img src="assets/img/logo/logo.png" alt="">
@@ -34,7 +34,7 @@
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-lg-5">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" href="#"
-                                data-bs-toggle="dropdown">خانه</a>
+                               data-bs-toggle="dropdown">خانه</a>
                             <ul class="dropdown-menu fade-down">
                                 <li><a class="dropdown-item" href="index-2.html">نسخه نمایشی خانه یک </a></li>
                                 <li><a class="dropdown-item" href="index-3.html">نسخه نمایشی خانه دوم </a></li>
@@ -52,81 +52,83 @@
                                                 <h5 class="mega-menu-title">دسته بندی</h5>
                                                 <ul class="mega-menu-item">
                                                     <li><a class="dropdown-item" href="shop-grid.html">جعبه
-                                                        هدایا</a></li>
+                                                            هدایا</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        شخصی</a></li>
+                                                            شخصی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">خانه و
-                                                        زندگی</a></li>
+                                                            زندگی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">مراقبت از
-                                                        پوشاک</a></li>
+                                                            پوشاک</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">جواهرات و
-                                                        لوازم جانبی</a></li>
+                                                            لوازم جانبی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        مناسبتی</a></li>
+                                                            مناسبتی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">دفتر و لوازم
-                                                        التحریر</a></li>
+                                                            التحریر</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-lg-2">
                                                 <h5 class="mega-menu-title">دسته بندی</h5>
                                                 <ul class="mega-menu-item">
                                                     <li><a class="dropdown-item" href="shop-grid.html">جعبه
-                                                        هدایا</a></li>
+                                                            هدایا</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        شخصی</a></li>
+                                                            شخصی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">خانه و
-                                                        زندگی</a></li>
+                                                            زندگی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">مراقبت از
-                                                        پوشاک</a></li>
+                                                            پوشاک</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">جواهرات و
-                                                        لوازم جانبی</a></li>
+                                                            لوازم جانبی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        مناسبتی</a></li>
+                                                            مناسبتی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">دفتر و لوازم
-                                                        التحریر</a></li>
+                                                            التحریر</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-lg-2">
                                                 <h5 class="mega-menu-title">دسته بندی</h5>
                                                 <ul class="mega-menu-item">
                                                     <li><a class="dropdown-item" href="shop-grid.html">جعبه
-                                                        هدایا</a></li>
+                                                            هدایا</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        شخصی</a></li>
+                                                            شخصی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">خانه و
-                                                        زندگی</a></li>
+                                                            زندگی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">مراقبت از
-                                                        پوشاک</a></li>
+                                                            پوشاک</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">جواهرات و
-                                                        لوازم جانبی</a></li>
+                                                            لوازم جانبی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        مناسبتی</a></li>
+                                                            مناسبتی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">دفتر و لوازم
-                                                        التحریر</a></li>
+                                                            التحریر</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-lg-2">
                                                 <h5 class="mega-menu-title">دسته بندی</h5>
                                                 <ul class="mega-menu-item">
                                                     <li><a class="dropdown-item" href="shop-grid.html">جعبه
-                                                        هدایا</a></li>
+                                                            هدایا</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        شخصی</a></li>
+                                                            شخصی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">خانه و
-                                                        زندگی</a></li>
+                                                            زندگی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">مراقبت از
-                                                        پوشاک</a></li>
+                                                            پوشاک</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">جواهرات و
-                                                        لوازم جانبی</a></li>
+                                                            لوازم جانبی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">هدایای
-                                                        مناسبتی</a></li>
+                                                            مناسبتی</a></li>
                                                     <li><a class="dropdown-item" href="shop-grid.html">دفتر و لوازم
-                                                        التحریر</a></li>
+                                                            التحریر</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-lg-4">
                                                 <div class="mega-menu-img">
-                                                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/assets/img/banner/mega-menu-banner.jpg'; ?>" alt=""></a>
+                                                    <a href="#"><img
+                                                                src="<?php echo get_template_directory_uri() . '/assets/img/banner/mega-menu-banner.jpg'; ?>"
+                                                                alt=""></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -154,7 +156,7 @@
                                         <li><a class="dropdown-item" href="login.html">ورود</a></li>
                                         <li><a class="dropdown-item" href="register.html">ثبت نام</a></li>
                                         <li><a class="dropdown-item" href="forgot-password.html">فراموشی رمز
-                                            عبور</a>
+                                                عبور</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -213,7 +215,7 @@
                                     <a class="dropdown-item dropdown-toggle" href="#">بلیط های پشتیبانی</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="support-ticket.html">بلیط های
-                                            پشتیبانی</a></li>
+                                                پشتیبانی</a></li>
                                         <li><a class="dropdown-item" href="ticket-detail.html">جزییات بلیط</a></li>
                                     </ul>
                                 </li>
@@ -224,7 +226,7 @@
                                         <li><a class="dropdown-item" href="payment-method.html">روش های پرداخت</a>
                                         </li>
                                         <li><a class="dropdown-item" href="add-payment.html">پرداخت را اضافه
-                                            کنید</a>
+                                                کنید</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -258,7 +260,7 @@
                                 <li><a class="dropdown-item" href="shop-cart.html">سبد خرید</a></li>
                                 <li><a class="dropdown-item" href="shop-checkout.html">تسویه حساب</a></li>
                                 <li><a class="dropdown-item" href="shop-checkout-complete.html">تسویه حساب کامل
-                                    شد</a></li>
+                                        شد</a></li>
                                 <li><a class="dropdown-item" href="shop-single.html">فروشگاه تک</a></li>
                                 <li><a class="dropdown-item" href="shop-compare.html">مقایسه فروشگاه‌ها</a></li>
                             </ul>
@@ -268,11 +270,11 @@
                             <ul class="dropdown-menu fade-down">
                                 <li><a class="dropdown-item" href="blog-grid.html">چیدمان وبلاگ</a></li>
                                 <li><a class="dropdown-item" href="blog-grid-sidebar.html">چیدمان وبلاگ با
-                                    سایدبار</a>
+                                        سایدبار</a>
                                 </li>
                                 <li><a class="dropdown-item" href="blog-single.html">تک‌صفحه وبلاگ</a></li>
                                 <li><a class="dropdown-item" href="blog-single-sidebar.html">تک ‌صفحه وبلاگ
-                                    با سایدبار</a></li>
+                                        با سایدبار</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">تماس</a></li>
@@ -292,66 +294,19 @@
                             </li>
                             <li class="dropdown-cart">
                                 <a href="#" class="list-link shop-cart">
-                                    <i class="far fa-shopping-bag"></i><span>5</span>
+                                    <i class="far fa-shopping-bag"></i>
+                                    <?php if (function_exists('WC')) : ?>
+                                        <span><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+                                    <?php endif; ?>
                                 </a>
                                 <div class="dropdown-cart-menu">
                                     <div class="dropdown-cart-header">
-                                        <span>03 مورد</span>
-                                        <a href="shop-cart.html">مشاهده سبد خرید</a>
+                                        <?php if (function_exists('WC')) : ?>
+                                            <span><?php echo WC()->cart->get_cart_contents_count(); ?> مورد</span>
+                                        <?php endif; ?>
+                                        <a href="<?php echo wc_get_cart_url() ?>">مشاهده سبد خرید</a>
                                     </div>
-                                    <ul class="dropdown-cart-list">
-                                        <li>
-                                            <div class="dropdown-cart-item">
-                                                <div class="cart-img">
-                                                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/assets/img/product/06.png'; ?>" alt="#"></a>
-                                                </div>
-                                                <div class="cart-info">
-                                                    <h4><a href="#">صندلی اتاق نشیمن</a></h4>
-                                                    <p class="cart-qty">1x - <span
-                                                            class="cart-amount">$200.00</span></p>
-                                                </div>
-                                                <a href="#" class="cart-remove" title="Remove this item"><i
-                                                        class="far fa-times-circle"></i></a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdown-cart-item">
-                                                <div class="cart-img">
-                                                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/assets/img/product/14.png'; ?>"
-                                                                        alt="#"></a>
-                                                </div>
-                                                <div class="cart-info">
-                                                    <h4><a href="#">صندلی اتاق نشیمن</a></h4>
-                                                    <p class="cart-qty">1x - <span
-                                                            class="cart-amount">$120.00</span></p>
-                                                </div>
-                                                <a href="#" class="cart-remove" title="Remove this item"><i
-                                                        class="far fa-times-circle"></i></a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdown-cart-item">
-                                                <div class="cart-img">
-                                                    <a href="#"><img src="<?php echo get_template_directory_uri() . '/assets/img/product/15.png'; ?>"
-                                                                        alt="#"></a>
-                                                </div>
-                                                <div class="cart-info">
-                                                    <h4><a href="#">صندلی اتاق نشیمن</a></h4>
-                                                    <p class="cart-qty">1x - <span
-                                                            class="cart-amount">$330.00</span></p>
-                                                </div>
-                                                <a href="#" class="cart-remove" title="Remove this item"><i
-                                                        class="far fa-times-circle"></i></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="dropdown-cart-bottom">
-                                        <div class="dropdown-cart-total">
-                                            <span>مورد</span>
-                                            <span class="total-amount">$650.00</span>
-                                        </div>
-                                        <a href="shop-checkout.html" class="theme-btn">تسویه حساب</a>
-                                    </div>
+                                    <?php woocommerce_mini_cart(); ?>
                                 </div>
                             </li>
                         </ul>
