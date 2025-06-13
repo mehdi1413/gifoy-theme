@@ -15,14 +15,30 @@
  * @version 3.6.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+if (!defined('ABSPATH')) {
+    exit;
 }
 
 global $product;
 
-if ( ! wc_review_ratings_enabled() ) {
-	return;
+if (!wc_review_ratings_enabled()) {
+    return;
 }
 
-echo wc_get_rating_html( $product->get_average_rating() ); // WordPress.XSS.EscapeOutput.OutputNotEscaped.
+$rating_count = $product->get_rating_count();
+$review_count = $product->get_review_count();
+$average = $product->get_average_rating();
+if ($rating_count > 0) : ?>
+    <div class="product-rate">
+        <?php
+        for ($i = 1; $i <= 5; $i++) {
+            if ($i <= floor($average)) {
+                echo '<i class="fas fa-star"></i>';
+            } elseif ($i - $average <= 0.5) {
+                echo '<i class="fas fa-star-half-alt"></i>';
+            } else {
+                echo '<i class="far fa-star"></i>';
+            }
+        } ?>
+    </div>
+<?php endif;
