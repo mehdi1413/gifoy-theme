@@ -15,13 +15,19 @@
  * @version 3.6.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
 }
 
 global $comment;
-$rating = intval( get_comment_meta( $comment->comment_ID, 'rating', true ) );
+$rating = intval(get_comment_meta($comment->comment_ID, 'rating', true));
 
-if ( $rating && wc_review_ratings_enabled() ) {
-	echo wc_get_rating_html( $rating ); // WPCS: XSS ok.
-}
+if ($rating && wc_review_ratings_enabled()) : ?>
+    <?php for ($i = 1; $i <= 5; $i++) : ?>
+        <?php if ($i <= $rating) : ?>
+            <i class="fas fa-star"></i>
+        <?php else : ?>
+            <i class="far fa-star"></i>
+        <?php endif; ?>
+    <?php endfor; ?>
+<?php endif; ?>
