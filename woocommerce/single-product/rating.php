@@ -15,29 +15,37 @@
  * @version 3.6.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
 }
 
 global $product;
 
-if ( ! wc_review_ratings_enabled() ) {
-	return;
+if (!wc_review_ratings_enabled()) {
+    return;
 }
 
 $rating_count = $product->get_rating_count();
 $review_count = $product->get_review_count();
-$average      = $product->get_average_rating();
+$average = $product->get_average_rating();
 
-if ( $rating_count > 0 ) : ?>
-
-	<div class="woocommerce-product-rating">
-		<?php echo wc_get_rating_html( $average, $rating_count ); // WPCS: XSS ok. ?>
-		<?php if ( comments_open() ) : ?>
-			<?php //phpcs:disable ?>
-			<a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<?php printf( _n( '%s customer review', '%s customer reviews', $review_count, 'woocommerce' ), '<span class="count">' . esc_html( $review_count ) . '</span>' ); ?>)</a>
-			<?php // phpcs:enable ?>
-		<?php endif ?>
-	</div>
+if ($rating_count > 0) : ?>
+    <div class="shop-single-rating">
+        <?php
+        $average = $product->get_average_rating();
+        for ($i = 1; $i <= 5; $i++) {
+            if ($i <= floor($average)) {
+                echo '<i class="fas fa-star"></i>';
+            } elseif ($i - $average <= 0.5) {
+                echo '<i class="fas fa-star-half-alt"></i>';
+            } else {
+                echo '<i class="far fa-star"></i>';
+            }
+        }
+        ?>
+        <?php if (comments_open()) : ?>
+            (<?php printf(_n('%s customer review', '%s customer reviews', $review_count, 'woocommerce'), '<span class="rating-count">' . esc_html($review_count) . '</span>'); ?>)
+        <?php endif ?>
+    </div>
 
 <?php endif; ?>
